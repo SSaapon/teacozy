@@ -72,13 +72,27 @@ img{
   height: 500px;
 }
 .tempimg2{
-  display: block;
+  display: flex;
   justify-content: center;
+  align-items: center;
   width: 1200px;
   height: 500px;
 }
-.locationheader{
+.locationtitle{
   display: block;
-  width: 600px;
-  height: 100px;
+  width: 100%;
+}
+.boxes{
+  display: block;
+  width: 100%
+}
+.locationbox{
+  display: inline-block;
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
 }
