@@ -8,6 +8,7 @@ html{
 }
 header{
   display: flex;
+  background-color: black;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -20,14 +21,15 @@ nav{
   align-items: center;
   flex-grow: .13;
   height: 50px;
-  border: 1px solid seashell;
+}
+main{
+  margin: 30px;
 }
 span{
   text-decoration: underline;
-  border: 1px solid seashell;
 }
-div{
-  border: 1px solid seashell;
+p{
+  padding: 10px;
 }
 .logo{
   display: flex;
@@ -38,29 +40,32 @@ div{
   height: 50px;
   margin-left: 10px;
 }
-.links{
-}
 .opening-box{
   display: flex;
   justify-content: center;
+  width: 1200px;
+  height: 700px;
+}
+.openimg{
+  display:flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
   width: 100%;
   height: 700px;
 }
-.tempimg1{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width: 1200px;
-  height: 700px;
-}
 .temptitle{
-  width: 1200px;
+  background-color: black;
+  flex-grow: 1;
+  width: 100%;
 }
 
 .products{
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1200px;
+  padding: 50px;
 }
 .teas{
   display: block;
@@ -68,16 +73,14 @@ div{
   width: 1000px;
 }
 .teatitle{
-  width: 1000px;
+  display: block;
 }
 .tealine1{
   display: flex;
-  width: 1000px;
 }
 .tealine2{
   display: flex;
   justify-content: center;
-  width: 1000px;
 }
 .items{
   margin: 0px 50px 0px 0px;
@@ -92,32 +95,32 @@ div{
 }
 .locations{
   display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   justify-content: center;
-  width: 100%;
-  height: 500px;
-}
-.tempimg2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 1200px;
   height: 500px;
 }
-.locationtitle{
-  display: block;
-  width: 100%;
-}
 .boxes{
-  display: block;
-  width: 100%
+  display: ;
+  width: 1200px;
 }
 .locationbox{
   display: inline-block;
   width: 300px;
   margin: 15px 40px;
+  background-color: black;
   opacity: 1;
+}
+footer{
+  display: block;
+  justify-content: center;
+  border-top: 1px solid black;
+}
+.contact{
+  width: 100%;
+  height: 200px;
 }
 .copyright{
   text-align: left;
-  margin-left: 20px;
+  padding-left: 20px;
 }
